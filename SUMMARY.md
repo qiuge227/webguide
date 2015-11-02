@@ -1,6 +1,8 @@
 # Summary
 
 * [智课前端优化指南](README.md)
+* [目前面临的问题](./guide/chapter5.md)
+* [网站优化的方案](./guide/chapter6.md)
 * [高质量HTML](./guide/chapter1.md)
 * [高质量CSS](./guide/chapter2.md)
 * [高质量Less](./guide/chapter3.md)
@@ -10,8 +12,6 @@
   * [包结构规范](./guide/chapter43.md)
   * [项目目录结构规范](./guide/chapter44.md)
   * [图表库标准](./guide/chapter45.md)
-* [目前面临的问题](./guide/chapter5.md)
-* [网站优化的方案](./guide/chapter6.md)
 * [网站的前端重构](./guide/chapter7.md)
 * [团队合作](./guide/chapter8.md)
 * [单元测试](./guide/chapter9.md)
