@@ -3,8 +3,19 @@
 
 ![Smartstudy loading icon](http://3861227.s21i-3.faiusr.com/3/ABUIABADGAAgwqHOsQUo8vWdNTBBOEQ.gif)
 
+[前端工程与性能优化](https://github.com/fouber/blog/issues/3)
 
 ## 请求数量
+
+![主站请求总数](http://3861227.s21i-3.faiusr.com/4/ABUIABAEGAAgrsjbsQUozrGZqQUw-Qk4lQU.png)
+
+152个 requests
+11.7MB transferred
+2.6min finish time
+1.61s DOMContentLoaded
+
+总的加载时间26.74s
+
 
 ####合并脚本和样式表、压缩HTML文档
 减少资源大小可以加快网页显示速度，所以要对HTML，CSS，Javascript等进行代码压缩，并在服务器端设置GZip. a) 压缩（例如，多余的空格，换行符和缩进） 
@@ -15,7 +26,6 @@
 * CSS Sprites
 
 ![雪碧图](http://media8.smartstudy.com/images/icons.png)
-
 
 ####页面的按需加载
   
@@ -225,6 +235,18 @@ CSS表达式是一个功能强大的（和危险）的方式来动态设置CSS�
 ## 数据请求
 
 目前主站的get请求接口11个。
+
+* 随机获取教师：http://www.smartstudy.com/api/teachers?random=2&_=1445653254727
+* 获取用户的课程详情：http://www.smartstudy.com/api/user/product/612977?token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+* 获取用户信息：http://www.smartstudy.com/login/userinfo?_=1445653194268
+* 获取用户基本信息：http://www.smartstudy.com/api/user/?token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+* 获取我的练习数据：http://www.smartstudy.com/api/user/exerciselogs?page=1&token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+* 获取我的笔记数据：http://www.smartstudy.com/api/user/notes?page=1&token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+* 获取我的模考数据：http://practice.smartstudy.com/api/user/examinations?page=1&page_size=8&uid=4559200&token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+* 获取我的批改数据：http://www.smartstudy.com/api/user/pigailogs?page=1&token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+* 获取课程的详细信息：http://www.smartstudy.com/api/user/product/586575?token=SPSUTJPDJMLDHGXHZ03GU4UW8EY2TXQ8
+
+
 
 
 
