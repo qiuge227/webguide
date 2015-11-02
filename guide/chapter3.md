@@ -13,18 +13,6 @@
 
 Less 代码的基本规范和原则与 [CSS 编码规范](https://github.com/ecomfe/spec/blob/master/css-style-guide.md) 保持一致。
 
-### 编撰
-
-erik、顾轶灵、黄后锦、李玉北、赵雷。
-
-本文档由`商业运营体系前端技术组`审校发布。
-
-### 要求
-
-在本文档中，使用的关键字会以中文+括号包含的关键字英文表示：必须（MUST）。关键字"MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL"被定义在rfc2119中。
-
-***
-
 ## 编码
 
 使用UTF-8编码。*不得*（MUST NOT）包含BOM信息。
@@ -997,7 +985,7 @@ color: #fefefe;
 
 ## 嵌套和缩进
 
-*必须*（MUST）采用 4 个空格为一次缩进， *不得*（MUST NOT）采用 TAB 作为缩进。
+*必须*（MUST）采用 2 个空格为一次缩进， *不得*（MUST NOT）采用 TAB 作为缩进。
 
 嵌套的声明块前*必须*（MUST）增加一次缩进，有多个声明块共享命名空间时*尽量*（SHOULD）嵌套书写，避免选择器的重复。
 
