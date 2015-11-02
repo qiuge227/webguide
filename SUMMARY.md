@@ -14,5 +14,5 @@
 * [网站优化的方案](./guide/chapter6.md)
 * [网站的前端重构](./guide/chapter7.md)
 * [团队合作](./guide/chapter8.md)
-* [单元测试](./guide/chanpter9.md)
+* [单元测试](./guide/chapter9.md)
 
