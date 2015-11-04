@@ -1,8 +1,8 @@
 # Summary
 
-* [智课前端优化指南](README.md)
+* [Introduction](README.md)
+* [智课前端优化指南](./guide/chapter.md)
 * [目前面临的问题](./guide/chapter5.md)
-* [网站优化的方案](./guide/chapter6.md)
 * [高质量HTML](./guide/chapter1.md)
 * [高质量CSS](./guide/chapter2.md)
 * [高质量Less](./guide/chapter3.md)
