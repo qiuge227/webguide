@@ -133,8 +133,6 @@ tag: server
 ####16.Use GET for AJAX Requests 使用Ajax的GET请求
 tag: server
 
-雅虎邮件研究小组发现，使用XMLHttpRequest的时候，POST将在浏览器中实现为两个步骤：首先发送标题，然后发送数据。所以最好使用GET，只需要一个TCP数据包发送（除非你有很多的饼干）。最大URL长度在IE浏览器是2K，所以如果你发送超过2K的数据，你可能无法使用GET。
-
 当你只需要请求数据，而不是将数据发送到存储服务器端。就尽量使用GET请求
 
 [阅读资料](http://www.cnblogs.com/chenxizhang/archive/2013/05/12/3073891.html)

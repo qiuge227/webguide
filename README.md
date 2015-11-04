@@ -16,17 +16,27 @@
 | 课程详情页商品图 | 666*375     |  <70KB |
 | 课程详情页介绍图 | 1040*375     |  <70KB |
 
+首页：
+![请求测试](http://3861227.s21i-3.faiusr.com/4/ABUIABAEGAAg5a7msQUogKrT-wEw4AU4nAY.png)
+![请求测试](http://3861227.s21i-3.faiusr.com/4/ABUIABAEGAAg5q7msQUom9aXrgMw_wM4wwM.png)
+![请求测试](http://3861227.s21i-3.faiusr.com/4/ABUIABAEGAAg6a7msQUo7YKLswcw8gY4kQM.png)
+
+影响页面的因素有很多，图片确实是最紧迫的。
 
 配合的方案：
-1.后台上传的图片格式的控制，未来实现自动化在线压缩平台
-2.权哥和偲哥这边实现自动化压缩脚本
-3.后台上传图片之前就做好压缩处理
-4.前端切图的时候就做好压缩处理，再上传到CDN
+
+1. 后台上传的图片格式的控制，未来实现自动化在线压缩平台
+2. 权哥和偲哥这边实现自动化压缩脚本
+3. 后台上传图片之前除了按照标准的格式大小去上传外，提前做好压缩处理
+4. 前端切图的时候就做好压缩处理，再上传到CDN
+5. 如果需要改变图片的格式，png->jpg.可能会影响到数据库的存储
+
 
 压缩图片的在线工具：
-[智图](http://zhitu.isux.us/)
-[tinypng](http://tinypng.org/)
 
+[智图](http://zhitu.isux.us/)
+
+[tinypng](http://tinypng.org/)
 
 
 

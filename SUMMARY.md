@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [智课前端优化指南](README.md)
+* [智课前端优化指南](./guide/chapter.md)
 * [目前面临的问题](./guide/chapter5.md)
 * [高质量HTML](./guide/chapter1.md)
 * [高质量CSS](./guide/chapter2.md)
